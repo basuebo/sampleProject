@@ -1,7 +1,7 @@
 # GitHub workflow CI サンプル
 name: Java CI Sample
 
-on: push
+on: [push, workflow_dispatch]
 
 jobs:
   build:
@@ -22,7 +22,7 @@ jobs:
         run: mvn --batch-mode verify
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: jar-files
           path: target/*.jar
