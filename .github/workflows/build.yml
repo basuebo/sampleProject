@@ -1,0 +1,28 @@
+# GitHub workflow CI サンプル
+name: Java CI Sample
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup JDK
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: maven
+
+      - name: Build with maven
+        run: mvn --batch-mode verify
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: jar-files
+          path: target/*.jar
