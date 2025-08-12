@@ -1,5 +1,5 @@
 ---
-name: アドオン変更
+name: 04 アドオン変更
 about: アドオンを変更するためのテンプレート
 title: '[アドオン変更] '
 labels: 'update'

@@ -1,5 +1,5 @@
 ---
-name: アドオン作成
+name: 03 アドオン作成
 about: アドオンを作成するためのテンプレート
 title: '[アドオン作成] '
 labels: 'feature'
