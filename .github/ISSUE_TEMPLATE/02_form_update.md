@@ -1,7 +1,7 @@
 ---
 name: 02 申請書変更
 about: 申請書を変更するためのテンプレート
-title: '[申請書変更] '
+title: '【申請書変更】'
 labels: 'update'
 ---
 
