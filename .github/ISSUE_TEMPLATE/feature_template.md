@@ -1,8 +1,8 @@
 ---
-name: バグレポート
-about: バグを報告するためのテンプレート
-title: '[BUG] '
-labels: 'bug'
+name: 申請書作成
+about: 申請書を作成するためのテンプレート
+title: '[申請書作成] '
+labels: 'feature'
 assignees: ''
 ---
 
