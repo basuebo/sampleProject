@@ -1,7 +1,7 @@
 ---
 name: 05 不具合修正
 about: 不具合を修正するためのテンプレート
-title: '[不具合修正] '
+title: '【不具合修正】'
 labels: ' bug'
 assignees: ''
 ---
